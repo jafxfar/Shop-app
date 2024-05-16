@@ -4,7 +4,7 @@ import Nav from './components/Nav.vue'
 import { usePersistCart } from './composables/usePersistCart'
 import { useCartStore } from './store/cart'
 import { useProductStore } from './store/products'
-
+import 'bootstrap'
 const productStore = useProductStore()
 const cartStore = useCartStore()
 
